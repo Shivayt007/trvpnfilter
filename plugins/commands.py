@@ -17,9 +17,9 @@ logger = logging.getLogger(__name__)
 async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [[    
-            InlineKeyboardButton('💬 Join Our Group 💬',url='https://t.me/discussion_hd_movies')],
+            InlineKeyboardButton('💬 Join Our Group 💬',url='https://t.me/Moviezzgroup')],
             [
-            InlineKeyboardButton('😄 Join Our Channel 😄', url='https://t.me/tamil_links_official')
+            InlineKeyboardButton('😄 Join Our Channel 😄', url='https://t.me/tamilblasters_win')
             ],[
             InlineKeyboardButton('🔎 Search Here Movies 🔎', switch_inline_query_current_chat='')
             ]]
@@ -35,10 +35,10 @@ async def start(client, message):
         await db.add_user(message.from_user.id, message.from_user.first_name)
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
-        buttons = [[    
-            InlineKeyboardButton('💬 Join Our Group 💬',url='https://t.me/discussion_hd_movies')],
+        buttons = buttons = [[    
+            InlineKeyboardButton('💬 Join Our Group 💬',url='https://t.me/Moviezzgroup')],
             [
-            InlineKeyboardButton('😄 Join Our Channel 😄', url='https://t.me/tamil_links_official')
+            InlineKeyboardButton('😄 Join Our Channel 😄', url='https://t.me/tamilblasters_win')
             ],[
             InlineKeyboardButton('🔎 Search Here Movies 🔎', switch_inline_query_current_chat='')
             ]]
@@ -56,10 +56,10 @@ async def start(client, message):
         except ChatAdminRequired:
             logger.error("Make sure Bot is admin in Forcesub channel")
             return
-        btn = [[    
-            InlineKeyboardButton('💬 Join Our Group 💬',url='https://t.me/discussion_hd_movies')],
+        btn = buttons = [[    
+            InlineKeyboardButton('💬 Join Our Group 💬',url='https://t.me/Moviezzgroup')],
             [
-            InlineKeyboardButton('😄 Join Our Channel 😄', url='https://t.me/tamil_links_official')
+            InlineKeyboardButton('😄 Join Our Channel 😄', url='https://t.me/tamilblasters_win')
             ],[
             InlineKeyboardButton('🔎 Search Here Movies 🔎', switch_inline_query_current_chat='')
             ]]
@@ -74,10 +74,10 @@ async def start(client, message):
             )
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
-        buttons = [[    
-            InlineKeyboardButton('💬 Join Our Group 💬',url='https://t.me/discussion_hd_movies')],
+        buttons = buttons = [[    
+            InlineKeyboardButton('💬 Join Our Group 💬',url='https://t.me/Moviezzgroup')],
             [
-            InlineKeyboardButton('😄 Join Our Channel 😄', url='https://t.me/tamil_links_official')
+            InlineKeyboardButton('😄 Join Our Channel 😄', url='https://t.me/tamilblasters_win')
             ],[
             InlineKeyboardButton('🔎 Search Here Movies 🔎', switch_inline_query_current_chat='')
             ]]
@@ -105,10 +105,10 @@ async def start(client, message):
             f_caption=f_caption
     if f_caption is None:
        f_caption = f"{files.file_name}"
-    buttons =  [[
-            InlineKeyboardButton('💬 Join Our Group 💬',url='https://t.me/discussion_hd_movies')],
+    buttons =  buttons = [[    
+            InlineKeyboardButton('💬 Join Our Group 💬',url='https://t.me/Moviezzgroup')],
             [
-            InlineKeyboardButton('😄 Join Our Channel 😄', url='https://t.me/tamil_links_official')
+            InlineKeyboardButton('😄 Join Our Channel 😄', url='https://t.me/tamilblasters_win')
             ],[
             InlineKeyboardButton('🔎 Search Here Movies 🔎', switch_inline_query_current_chat='')
             ]]
