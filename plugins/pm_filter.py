@@ -387,10 +387,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 f_caption=f_caption
         if f_caption is None:
             f_caption = f"{files.file_name}"
-        buttons =  [[
-            InlineKeyboardButton('💬 Join Our Group 💬',url='https://t.me/discussion_hd_movies')],
+        buttons = buttons = [[    
+            InlineKeyboardButton('💬 Join Our Group 💬',url='https://t.me/Moviezzgroup')],
             [
-            InlineKeyboardButton('😄 Join Our Channel 😄', url='https://t.me/tamil_links_official')
+            InlineKeyboardButton('😄 Join Our Channel 😄', url='https://t.me/tamilblasters_win')
             ],[
             InlineKeyboardButton('🔎 Search Here Movies 🔎', switch_inline_query_current_chat='')
             ]]
@@ -404,14 +404,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "pages":
         await query.answer()
     elif query.data == "start":
-        buttons = [[    
-            InlineKeyboardButton('💬 Join Our Group 💬',url='https://t.me/discussion_hd_movies')],
+        buttons = buttons = [[    
+            InlineKeyboardButton('💬 Join Our Group 💬',url='https://t.me/Moviezzgroup')],
             [
-            InlineKeyboardButton('😄 Join Our Channel 😄', url='https://t.me/tamil_links_official')
+            InlineKeyboardButton('😄 Join Our Channel 😄', url='https://t.me/tamilblasters_win')
             ],[
             InlineKeyboardButton('🔎 Search Here Movies 🔎', switch_inline_query_current_chat='')
             ]]
-        
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
@@ -419,10 +418,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode='html'
         )
     elif query.data == "help":
-        buttons = [[    
-            InlineKeyboardButton('💬 Join Our Group 💬',url='https://t.me/discussion_hd_movies')],
+        buttons = buttons = [[    
+            InlineKeyboardButton('💬 Join Our Group 💬',url='https://t.me/Moviezzgroup')],
             [
-            InlineKeyboardButton('😄 Join Our Channel 😄', url='https://t.me/tamil_links_official')
+            InlineKeyboardButton('😄 Join Our Channel 😄', url='https://t.me/tamilblasters_win')
             ],[
             InlineKeyboardButton('🔎 Search Here Movies 🔎', switch_inline_query_current_chat='')
             ]]
@@ -434,10 +433,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode='html'
         )
     elif query.data == "about":
-        buttons= [[    
-            InlineKeyboardButton('💬 Join Our Group 💬',url='https://t.me/discussion_hd_movies')],
+        buttons= buttons = [[    
+            InlineKeyboardButton('💬 Join Our Group 💬',url='https://t.me/Moviezzgroup')],
             [
-            InlineKeyboardButton('😄 Join Our Channel 😄', url='https://t.me/tamil_links_official')
+            InlineKeyboardButton('😄 Join Our Channel 😄', url='https://t.me/tamilblasters_win')
             ],[
             InlineKeyboardButton('🔎 Search Here Movies 🔎', switch_inline_query_current_chat='')
             ]]
