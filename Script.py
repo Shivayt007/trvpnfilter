@@ -1,7 +1,7 @@
 class script(object):
     START_TXT = """Hello {},
 My name is <a href=https://t.me/{}>{}</a>!
-<b>I can provide Movies. A Telegram Auto Filter Bot. \n\n😄 Join Our Channel 😄 : @Tamil_Links_Official \n\n🔥வாழ்க தமிழ் வளர்க தமிழ்🔥:)
+<b>I can provide Movies. \n\n😄 Join Our Channel 😄 : @TamilBlasters_Win \n\n💬 Join Our Group 💬:@Moviezzgroup \n\n🔥வாழ்க தமிழ் வளர்க தமிழ்🔥:)
 </b>"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
